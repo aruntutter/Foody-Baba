@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
 *,
 *::after,
 *::before {
@@ -16,7 +20,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background-color: rgb(0, 17, 60);
+  /* overflow: hidden; */
 }
 
 /* global css */
@@ -38,28 +43,16 @@ a {
   padding-right: 1rem;
 }
 
-.btn {
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.5rem 1.5rem;
-  margin-top: 0.5rem;
-  text-transform: capitalize;
-  font-size: 1.2rem;
-  font-weight: 500;
-  cursor: pointer;
-  /* customize */
-  background-color: #1c2042;
-  color: white;
-  border: 2px solid #1c2042;
-}
-
 .header {
   height: 10rem;
   width: 100%;
   /* padding: 2rem 2rem; */
   display: flex;
   flex-direction: row;
-  background-color: aquamarine;
+  background-color: rgb(0, 17, 60);
+  position: sticky;
+  top: 0;
+  /* border: 2px solid black; */
 }
 
 .header-nav {
@@ -72,12 +65,23 @@ a {
   gap: 14rem;
 }
 
+.top-navigation {
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+}
+
 .header-img-title {
   padding: 0 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+}
+
+.header-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .logo-baba {
@@ -92,4 +96,128 @@ a {
   padding: 4rem 4rem;
   text-align: end;
   gap: 14rem;
+  /* border: 2px solid black; */
+}
+
+.body-2 {
+  height: 30%;
+  width: auto;
+}
+
+.mid-content {
+  height: 564px;
+  width: 100%;
+  padding: 5rem 5rem;
+  /* border: 2px solid black; */
+  background-color: rgb(0, 17, 60);
+  color: #fff;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.left-container {
+  height: 22px;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+
+.mid-title {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+.foody-baba {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.mid-content-2 {
+  height: 300px;
+  width: 100%;
+  padding: 5rem 5rem;
+  /* border: 2px solid black; */
+  background-image: url(../assets/images/bg\ 1.jpg);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-foody-baba {
+  font-family: "Tangerine", cursive;
+  font-size: 6rem;
+}
+
+.menu {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+  background-color: rgb(0, 17, 60);
+}
+
+.menu-img {
+  width: 200px;
+  height: 200px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu-name {
+  color: #fff;
+  font-family: "Tangerine", cursive;
+  font-size: 2rem;
+}
+
+.menu-list {
+  width: 100%;
+  border-radius: 75%;
+}
+
+.fa-solid {
+  padding-bottom: 3.8rem;
+  color: #fff;
+}
+
+.footer {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  background-color: rgb(31, 29, 29);
+}
+
+.icons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+}
+
+.icon-link {
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.copy-right {
+  color: #fff;
 }
